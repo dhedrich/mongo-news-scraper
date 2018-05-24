@@ -5,8 +5,8 @@ var Schema = mongoose.Schema
 
 // create a new article schema
 var ArticleSchema = new Schema({
-  title: String,
-  tagline: String,
+  headline: String,
+  summary: String,
   url: String
 })
 
